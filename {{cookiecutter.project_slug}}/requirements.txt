@@ -1,0 +1,25 @@
+{% if cookiecutter.project_packages == "Basic" -%}
+pandas==2.3.1
+numpy==2.3.0
+
+seaborn==0.13.2
+matplotlib==3.10.0
+
+scikit-learn==1.7.1
+{% endif -%}
+
+{% if cookiecutter.project_packages == "Advance" -%}
+pandas==2.3.1
+numpy==2.3.0
+
+seaborn==0.13.2
+matplotlib==3.10.0
+
+scikit-learn==1.7.1
+tensorflow==2.19.0
+torch==2.7.0
+
+xgboost==3.0.2
+lightgbm==4.6.0
+catboost==1.2.8
+{% endif -%}

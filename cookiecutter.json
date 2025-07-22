@@ -1,0 +1,8 @@
+{
+    "project_name" : "project name",
+    "project_slug" : "{{cookiecutter.project_name.lower().replace(' ','_')}}",
+    "project_client" : "project client",
+    "project_author" : "project author",
+    "project_description" : "project description",
+    "project_packages" : ["Basic","Advance"]
+}
