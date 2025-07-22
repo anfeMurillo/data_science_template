@@ -5,5 +5,3 @@
 {{cookiecutter.project_author}}
 
 {{cookiecutter.project_description}}
-
-Python version needed >> 3.10
