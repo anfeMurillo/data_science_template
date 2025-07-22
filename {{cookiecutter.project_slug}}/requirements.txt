@@ -10,7 +10,7 @@ scikit-learn==1.7.1
 
 {% if cookiecutter.project_packages == "Advance" -%}
 pandas==2.3.1
-numpy==2.3.0
+numpy==1.26.4
 
 seaborn==0.13.2
 matplotlib==3.10.3
